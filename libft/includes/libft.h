@@ -6,7 +6,7 @@
 /*   By: videsvau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 22:58:33 by videsvau          #+#    #+#             */
-/*   Updated: 2017/09/13 11:19:40 by videsvau         ###   ########.fr       */
+/*   Updated: 2018/02/05 17:40:12 by videsvau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,4 +90,6 @@ int					ft_listcount(t_list **alst);
 void				ft_putstr_color(char *str, int color);
 void				ft_swap(int *a, int *b);
 void				ft_putstr_ptr(char **str);
+void				*ft_realloc(void *inp_o, int qty);
+
 #endif

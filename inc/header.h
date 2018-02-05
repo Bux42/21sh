@@ -6,7 +6,7 @@
 /*   By: videsvau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/11 05:15:24 by videsvau          #+#    #+#             */
-/*   Updated: 2018/01/29 14:01:42 by drecours         ###   ########.fr       */
+/*   Updated: 2018/02/05 17:42:30 by videsvau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -161,6 +161,7 @@ void					contcat_inp(t_inp **inp, t_inp **ret);
 int						empty_inp(t_inp **inp);
 
 void					lexer_parser(t_inp **inp, t_sh *sh);
+char					**splitter_alt(char *inp);
 int						working_context(int context, char c);
 int						update_context(int context, int flag);
 void					dquote_inp(t_inp **cp, t_sh *sh);
