@@ -14,7 +14,7 @@ NAME		=	21sh
 
 CC			=	gcc
 FLAGS		=	-fsanitize=address -Wall -Wextra -Werror
-D_FLAGS		=	-g
+D_FLAGS		=	-g -Wno-deprecated -Wno-deprecated-declarations
 
 #-fsanitize=address
 

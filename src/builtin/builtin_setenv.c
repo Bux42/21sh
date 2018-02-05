@@ -37,8 +37,6 @@ int			parse_setenv(char **exec, t_env **env)
 	int		len;
 
 	len = 0;
-	if (env)
-		;
 	value = NULL;
 	name = NULL;
 	while (exec[1][len] && exec[1][len] != '=')

@@ -23,6 +23,7 @@
 # include <termios.h>
 # include <curses.h>
 # include <sys/stat.h>
+# include <sys/wait.h>
 # include <dirent.h>
 # include "typedef.h"
 //# include "../libft/includes/libft.h"

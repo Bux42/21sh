@@ -95,11 +95,9 @@ void		replace_variable(t_inp **cp, char *get_variable)
 	int		i;
 	t_inp	*new;
 	t_inp	*tmp;
-	t_inp	*first;
 
 	i = 0;
 	new = NULL;
-	first = *cp;
 	tmp = ((*cp)->previous) ? (*cp)->previous : NULL;
 	while (get_variable[i])
 	{
